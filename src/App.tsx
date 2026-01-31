@@ -24,7 +24,7 @@ function App(){
     let [value,setvalue]=useState<(number|string)[]>(Array(14).fill(''))
     let [num,setnum]=useState<number[]>([1,2,3,4,5,6,7,8,9,10,11,12,13,14])
     const row:number[]=[1,4,8,13]
-    const [res,setres]=useState<number[]>(generateresult())
+    const [res]=useState<number[]>(generateresult())
     const [result,setresult]=useState<string>('')
     const [butt,setbutt]=useState(<></>)
     
